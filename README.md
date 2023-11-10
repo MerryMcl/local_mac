@@ -1,21 +1,12 @@
-# Hacker's Kotlin Local on Mint
-
-Version: dm: LightDM Distro: Linux Mint 21.2 Victoria base: Ubuntu 22.04 jammy
+# Hacker's GameDev Local on Mac
 
 > This serves as an exposé and example of the
 > typical [competent local](https://github.com/readme/guides/developer-onboarding "Optimize local dev environments for better onboarding")
-> setup for [the modern 12-factor-app](https://12factor.net/ "The Twelve-Factor App") development workflow within [*
-*fluent-development-style**](https://martinfowler.com/articles/agileFluency.html "Fluent Development Style")
-> of [Extreme Programming (XP).](https://en.wikipedia.org/wiki/Extreme_programming "Extreme Programming") _This is how the
-world's most competent and performant software engineers, "hackers," work to disrupt markets, generate value and profit,
-and make the world a better place._ - and so can you!
+> setup for game development workflow within your local Mac for Agile style collaboration.
 
 ## Basic Principles
 
-1. _There's only production, and your local is part of
-   it, **treat it as such**:_ [Factor X](https://12factor.net/dev-prod-parity "Factor X of The Twelve-Factor App")
-2. _Only absolutely common packages and configurations are global configurations._
-3. **_The world is multifaceted, and so Linux is multiuser._**
+1. ToDo: what are the DameDev basic principles especially for digital art?
 
 ## The Global Setup Journey
 
