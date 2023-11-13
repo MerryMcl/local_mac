@@ -13,8 +13,8 @@
 <details>
   <summary><b>OS Setup - <i>Everything begins with the local...</i></b></summary>
 
-1. Install your OS: [Linux Mint](https://linuxmint.com/download.php "Linux Mint"), Mate in our
-   case - [beginner's guide](https://itsfoss.com/install-linux-mint/).
+1. Install your OS: [Linux Mint](https://linuxmint.com/download.php "Linux Mint"), a [Mate Desktop Environment](https://www.linuxmint.com/rel_vanessa_mate_whatsnew.php "Mate DE packaging distribution") in our
+   case, but you are free to choose any or many available - [beginner's guide](https://itsfoss.com/install-linux-mint/).
 2. **Concept:** _Your first user is **reserved** for you and is the only user with `sudo` access. If you have multiple
    customers or entities to code for separate them by creating additional accounts, leaving the first one untarnished.
    If you have separate boxes for separate gigs like we do the one user may suffice for you, yet a separate single user
@@ -27,7 +27,6 @@
 
 ---
 
-*
 *_From this point, each local-user development toolset is configured "as a user," including if only one user opted to be
 used._** _The actual development environment is encapsulated by a Linux user._
 
@@ -102,7 +101,7 @@ gpg --full-generate-key
 gpg --list-secret-keys --keyid-format=long
 ```
 
-- Copy value after rsaNNNN/ ,such as: 3AA5C34371567BD2
+- Copy value after rsaNNNN/ ,such as 3AA5C34371567BD2
 - Export key armor into clipboard:
 
 ```shell
